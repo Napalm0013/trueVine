@@ -1,4 +1,4 @@
-import { Fade } from 'react-reveal'
+
 import React from 'react'
 import styled from "styled-components"
 
@@ -8,14 +8,11 @@ import styled from "styled-components"
 function Section({ title, description, topBtnText, btmBtnText, backgroundImage }) {
   return (
     <Wrap bgImage={backgroundImage} >
-        <Fade bottom>
             <ItemText>
                 <h1>{ title }</h1>
                 <p>{ description }</p>
             </ItemText>
-        </Fade>
         <Buttons>
-            <Fade bottom>
             <ButtonGroup>
                     <TopButton>
                         {topBtnText}
@@ -27,7 +24,6 @@ function Section({ title, description, topBtnText, btmBtnText, backgroundImage }
                     }
 
                 </ButtonGroup>
-            </Fade>
             <DownArrow src="/images/downArrow.png" />
         </Buttons>
     </Wrap>
