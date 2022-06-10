@@ -1,5 +1,7 @@
+import { Carousel } from 'bootstrap'
 import React from 'react'
 import styled from "styled-components"
+
 
 
 function Section({ title, description, topBtnText, btmBtnText, backgroundImage }) {
@@ -40,7 +42,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between; // vertical alignment
     align-items: center; //horizontal alignment
-    border-bottom: 10px solid rgba(165, 55, 253, .7);
+    border-bottom: 10px solid rgba(70, 12, 103, .7);
 `
 
 const ItemText = styled.div`
@@ -49,6 +51,7 @@ const ItemText = styled.div`
     text-align: center;
     background-color: rgba(70, 12, 103, .7);
     border-radius: 25px;
+    color: white;
 `
 
 const ButtonGroup = styled.div`

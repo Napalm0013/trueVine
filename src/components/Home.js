@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import Footer from './Footer'
 import Header from './Header'
 import Section from './Section'
 
@@ -12,18 +13,17 @@ function Home() {
             and globally through the gospel message and ministry."
             backgroundImage= "theVine.jpg"
             topBtnText = "Donate Here!"
-            btmBtnText = "Our Goals"
+            btmBtnText = "Get Connected"
         />
         <Section
-            title="Spiritually"
+            title="Youth Ministry"
             description="With extensive knowledge of and research into the Word, our Leadership team can help lead individuals from all walks of
                           life on their spiritual journey."
             backgroundImage= "spiritual.jpg"
-            topBtnText = "Donate Here!"
-            btmBtnText = "Our Goals"        
+            topBtnText = "Upcoming Events"      
         />
         <Section
-            title="Culturally"
+            title="Men's Fellowship"
             description="With extensive knowledge of and research into the Word, our Leadership team can help lead individuals from all walks of
                           life on their spiritual journey."
             backgroundImage= "cultural.jpg"
@@ -31,7 +31,7 @@ function Home() {
             btmBtnText = "Our Goals"          
         />
         <Section 
-            title="Locally"
+            title="Women's Fellowship"
             description="With extensive knowledge of and research into the Word, our Leadership team can help lead individuals from all walks of
                           life on their spiritual journey."
             backgroundImage= "local.jpg"
@@ -39,15 +39,17 @@ function Home() {
             btmBtnText = "Our Goals"          
          />
          <Section
-            title="Globally"
+            title="Bible Study"
             description="With extensive knowledge of and research into the Word, our Leadership team can help lead individuals from all walks of
                           life on their spiritual journey."
             backgroundImage= "global.jpg"
             topBtnText = "Our Partners"        
          />
+          <Footer />
 
 
     </Container>
+
   )
 }
 
