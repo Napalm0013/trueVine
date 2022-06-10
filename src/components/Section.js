@@ -1,7 +1,7 @@
-import { Carousel } from 'bootstrap'
+import { Fade } from 'react-reveal'
 import React from 'react'
 import styled from "styled-components"
-import Fade from "react-reveal/Fade"
+
 
 
 
