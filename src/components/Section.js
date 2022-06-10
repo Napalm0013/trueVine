@@ -1,28 +1,33 @@
 import { Carousel } from 'bootstrap'
 import React from 'react'
 import styled from "styled-components"
+import Fade from "react-reveal/Fade"
 
 
 
 function Section({ title, description, topBtnText, btmBtnText, backgroundImage }) {
   return (
     <Wrap bgImage={backgroundImage} >
-        <ItemText>
-            <h1>{ title }</h1>
-            <p>{ description }</p>
-        </ItemText>
+        <Fade bottom>
+            <ItemText>
+                <h1>{ title }</h1>
+                <p>{ description }</p>
+            </ItemText>
+        </Fade>
         <Buttons>
+            <Fade bottom>
             <ButtonGroup>
-                <TopButton>
-                    {topBtnText}
-                </TopButton>
-                {btmBtnText && 
-                    <BottomButton>
-                    {btmBtnText}
-                    </BottomButton>
-                }
+                    <TopButton>
+                        {topBtnText}
+                    </TopButton>
+                    {btmBtnText && 
+                        <BottomButton>
+                        {btmBtnText}
+                        </BottomButton>
+                    }
 
-            </ButtonGroup>
+                </ButtonGroup>
+            </Fade>
             <DownArrow src="/images/downArrow.png" />
         </Buttons>
     </Wrap>

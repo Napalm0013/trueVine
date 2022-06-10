@@ -34,7 +34,7 @@ function Home() {
             title="Women's Fellowship"
             description="With extensive knowledge of and research into the Word, our Leadership team can help lead individuals from all walks of
                           life on their spiritual journey."
-            backgroundImage= "local.jpg"
+            backgroundImage= "locally.jpg"
             topBtnText = "Donate Here!"
             btmBtnText = "Our Goals"          
          />

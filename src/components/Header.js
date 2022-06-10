@@ -32,6 +32,7 @@ const Container = styled.div`
     position: fixed;
     display: flex;
     align-itmes: center;
+    justify-content: space-between;
     background-color: rgba(255, 255, 255, .5);
     border-radius: 5px;
     img {
@@ -56,6 +57,9 @@ const Menu = styled.div`
       flex-wrap: no-wrap;
     }
 
+    @media(max-width: 768px) {
+      display: none;
+    }
 
 `
 
