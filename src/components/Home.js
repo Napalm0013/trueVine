@@ -45,9 +45,8 @@ function Home() {
             backgroundImage= "global.jpg"
             topBtnText = "Our Partners"        
          />
+
           <Footer />
-
-
     </Container>
 
   )
