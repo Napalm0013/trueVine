@@ -47,7 +47,7 @@ const ItemText = styled.div`
     margin-top: 60px;
     padding: 5vh;
     text-align: center;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(70, 12, 103, .7);
     border-radius: 25px;
 `
 
