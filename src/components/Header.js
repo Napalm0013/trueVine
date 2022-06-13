@@ -9,7 +9,7 @@ function Header() {
         </a>
         <Menu>
           <p><a href="#">Home</a></p>
-          <p><a href="#">Leadership Team</a></p>
+          <p><a href="#">About Us</a></p>
           <p><a href="#">Community</a></p>
           <p><a href="#">Calendar</a></p>
           <p><a href="#">Goals</a></p>
